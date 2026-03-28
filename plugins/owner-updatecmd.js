@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 // GitHub repository info
 const REPO_OWNER = 'andytech580';
-const REPO_NAME = 'ANDY-MINI';
+const REPO_NAME = 'ANDY-XMD-MINI';
 const REPO_BRANCH = 'main';
 const PLUGINS_PATH = path.join(__dirname, '../plugins');
 const GITHUB_API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/contents/plugins`;
