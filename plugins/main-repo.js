@@ -1,15 +1,15 @@
 import fetch from 'node-fetch';
 import moment from 'moment-timezone';
 
-const REPO_OWNER = 'ayancodex503';
-const REPO_NAME = 'QUEEN-MINI';
+const REPO_OWNER = 'andytech580';
+const REPO_NAME = 'ANDY-XMD-MINI';
 const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}`;
 
 async function getRepoInfo() {
   try {
     const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}`, {
       headers: {
-        'User-Agent': 'QUEEN-NAZUMA-MINI-Bot',
+        'User-Agent': 'ANDY-XMD-MINI-Bot',
         'Accept': 'application/vnd.github.v3+json'
       }
     });
@@ -30,7 +30,7 @@ async function getLastCommit() {
   try {
     const response = await fetch(`https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/commits?per_page=1`, {
       headers: {
-        'User-Agent': 'QUEEN-MINI-Bot',
+        'User-Agent': 'ANDY-XMD-MINI-Bot',
         'Accept': 'application/vnd.github.v3+json'
       }
     });
