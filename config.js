@@ -10,7 +10,7 @@ global.number_bot = "";
 global.prefa = ".";
 global.msgglobal =
   "[𝑨𝑵𝑫𝒀-𝑿𝑴𝑫 𝑴𝑰𝑵𝑰] Welcome to the best WhatsApp bot experience!";
-globalThis.dev = "☄️ ANDY-TECH - Queen Mini Developer";
+globalThis.dev = "☄️ ANDY-TECH - Andy-xmd  Mini Developer";
 
 global.api = {
   url: "https://nex-magical.vercel.app",
