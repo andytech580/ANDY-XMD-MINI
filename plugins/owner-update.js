@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename);
 
 // GitHub repository info
 const REPO_OWNER = 'andytech580';
-const REPO_NAME = 'ANDY-MINI';
+const REPO_NAME = 'ANDY-XMD-MINI';
 const REPO_URL = `https://github.com/${REPO_OWNER}/${REPO_NAME}.git`;
 
 async function isGitRepo() {
