@@ -61,7 +61,7 @@ export default {
         } catch (error) {
             console.error('Error in play command:', error);
             
-            await reply("💥 *Error Occurred*\n\n❌ Something went wrong during download\n🔧 Please try again later");
+            await m.reply("💥 *Error Occurred*\n\n❌ Something went wrong during download\n🔧 Please try again later");
         }
     }
 }
